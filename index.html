@@ -1,0 +1,649 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- META -->
+        <meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <!-- PAGE TITLE -->
+        <title>g个人简历</title>
+       
+        <!-- FAVICON -->
+        <link rel="shortcut icon" href="assets/img/favicon.png">
+       
+        <!-- FONTS -->
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
+        <!-- STYLESHEETS -->
+        <link rel="stylesheet" type="text/css" href="assets/css/plugins.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+        <script src="./assest/js/prefixfree.min.js"></script>
+    	<script src="./assest/js/rem.js"></script>
+    	<script src="./assest/js/jquery.js"></script>
+    </head>
+    
+    <style>
+    	
+.bd{
+	width:100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;z-index: 10;
+	background: #dedede;
+}
+.base {
+  height: 16rem;
+  left: 50%;
+  margin: -7.5rem;
+  padding: 3rem;
+  position: absolute;
+  top: 50%;
+  width: 16rem;
+  transform: rotateX(45deg) rotateZ(45deg);
+  transform-style: preserve-3d;
+}
+
+.cube,
+.cube:after,
+.cube:before {
+  content: '';
+  float: left;
+  height: 3rem;
+  position: absolute;
+  width: 3rem;
+}
+
+/* Top */
+.cube {
+  background-color: #05afd1;
+  position: relative;
+  transform: translateZ(3rem);
+  transform-style: preserve-3d;
+  transition: .25s;
+  box-shadow: 13rem 13rem 1.5rem rgba(0, 0, 0, 0.1);
+  animation: anim 1s infinite;
+}
+.cube:after {
+  background-color: #049dbc;
+  transform: rotateX(-90deg) translateY(3rem);
+  transform-origin: 100% 100%;
+}
+.cube:before {
+  background-color: #048ca7;
+  transform: rotateY(90deg) translateX(3rem);
+  transform-origin: 100% 0;
+}
+.cube:nth-child(1) {
+  animation-delay: 0.05s;
+}
+.cube:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.cube:nth-child(3) {
+  animation-delay: 0.15s;
+}
+.cube:nth-child(4) {
+  animation-delay: 0.2s;
+}
+.cube:nth-child(5) {
+  animation-delay: 0.25s;
+}
+.cube:nth-child(6) {
+  animation-delay: 0.3s;
+}
+.cube:nth-child(7) {
+  animation-delay: 0.35s;
+}
+.cube:nth-child(8) {
+  animation-delay: 0.4s;
+}
+.cube:nth-child(9) {
+  animation-delay: 0.45s;
+}
+
+@keyframes anim {
+  50% {
+    transform: translateZ(0.5rem);
+  }
+}
+
+</style>
+    <body>
+	<div class="bd">
+		<div class='base'>
+		  <div class='cube'></div>
+		  <div class='cube'></div>
+		  <div class='cube'></div>
+		  <div class='cube'></div>
+		  <div class='cube'></div>
+		  <div class='cube'></div>
+		  <div class='cube'></div>
+		  <div class='cube'></div>
+		  <div class='cube'></div>
+		</div>
+	</div>
+        <!-- PRELOADER -->
+        <div class="preloader">
+           
+            <div class="spinner"></div>
+            
+        </div>
+        <!-- /PRELOADER -->
+    
+        
+        <!-- IMAGE CONTAINER -->
+        <div class="image-container">
+           
+            <div class="background-img"></div>
+
+        </div>
+        <!-- /IMAGE CONTAINER -->
+
+
+        <!-- CONTENT AREA -->
+        <div class="content-area">
+
+
+            <!-- CONTENT AREA INNER --> 
+            <div class="content-area-inner">
+
+
+                <!-- INTRO -->
+                <section id="intro">
+
+
+                    <!-- CONTAINER MID -->
+                    <div class="container-mid">
+
+                       
+                        <!-- ANIMATION CONTAINER -->
+                        <div class="animation-container animation-fade-right" data-animation-delay="0">
+                        
+                            <h1>高康倪</h1>
+                        
+                        </div>
+                        <!-- /ANIMATION CONTAINER -->
+                        
+                        
+                        <!-- ANIMATION CONTAINER -->
+                        <div class="animation-container animation-fade-right" data-animation-delay="200">
+                           
+                            <a href="#about" class="smooth-scroll">了解更多 <div class="circle"><i class="fa fa-angle-down" aria-hidden="true"></i><i class="fa fa-angle-down" aria-hidden="true"></i></div></a>
+                            
+                        </div>
+                        <!-- /ANIMATION CONTAINER -->
+
+
+                    </div>
+                    <!-- /CONTAINER MID -->
+
+
+                </section>
+                <!-- /INTRO -->
+
+
+                <!-- ABOUT -->
+                <section id="about">
+
+
+                    <h3 class="headline scroll-animated">About Me</h3>
+                    
+                    <p class="scroll-animated">
+                    	从事三年web前端工作，熟悉使用vue等前端框架
+                    </p>
+
+                    <p class="scroll-animated">
+                    	性格开朗，兴趣广泛，有较强的独立判断和处事能力。热爱学习，有较强的创新能力、动手能力及实际操作能力。适应性强，有较好的融入全新环境的能力
+                    </p>
+                    
+                    
+                    <!-- CLIENTS -->
+                    <div class="row clients scroll-animated">
+                        
+                        
+                        <div class="col-md-3 col-xs-6"><img class="img-responsive" src="assets/img/i1.png" alt="client"></div>
+                        <div class="col-md-3 col-xs-6"><img class="img-responsive" src="assets/img/i2.png" alt="client"></div>
+                        <div class="col-md-3 col-xs-6"><img class="img-responsive" src="assets/img/i3.png" alt="client"></div>
+                        <div class="col-md-3 col-xs-6"><img class="img-responsive" src="assets/img/i4.png" alt="client"></div>
+                        
+                        
+                    </div>
+                    <!-- /CLIENTS -->
+
+
+                </section>
+                <!-- /ABOUT -->
+                
+                <div class="tlinks">Collect from <a href="http://www.cssmoban.com/" >建站模板</a></div>
+                <!-- SERVICE -->
+                <section id="service">
+
+
+                    <h3 class="headline scroll-animated">项目经验</h3>
+                    
+                    
+                    <!-- SERVICE LIST -->
+                    <ul class="services-list">
+                       
+                       
+                        <!-- SERVICE ITEM -->
+                        <li class="service-item scroll-animated">
+                           
+                           
+                            <button class="btn btn-primary collapsed" type="button" data-toggle="collapse" data-target="#collapse-item-1" aria-expanded="false">藏宝</button>
+                            
+                            
+                            <!-- COLLAPSE CONTENT -->
+                            <div class="collapse" id="collapse-item-1">
+                               
+                               
+                                <!-- COLLAPSE CONTENT INNER -->
+                                <div class="well">
+                                   <p>(小程序，安卓，ios)</p>
+                                    <p>藏宝是一家集线上拍卖、收藏交流、艺术资产管理为一体的综合性服务平台。
+通过提供“随时发拍、即时竞拍、全球拍卖一键参与”的技术服务，为广大收藏品经营者、爱好者带来便利，使收藏拍卖交易活动不受时间与空间的限制。</p>
+                                    
+                                </div>
+                                <!-- /COLLAPSE CONTENT INNER -->
+                                
+                                
+                            </div>
+                            <!-- /COLLAPSE CONTENT -->
+                            
+                            
+                        </li>
+                        <!-- /SERVICE ITEM -->
+                        
+                        
+                        <!-- SERVICE ITEM -->
+                        <li class="service-item scroll-animated">
+                           
+                           
+                            <button class="btn btn-primary collapsed" type="button" data-toggle="collapse" data-target="#collapse-item-2" aria-expanded="false">易电所</button>
+                            
+                            
+                            <!-- COLLAPSE CONTENT -->
+                            <div class="collapse" id="collapse-item-2">
+                               
+                               
+                                <!-- COLLAPSE CONTENT INNER -->
+                                <div class="well">
+                                   <p>(h5-APP)</p>
+                                    <p> “易电所”是易电互联有限公司旗下新能源资产产权（物权）交易平台，易电所在国家大力发展新能源和互联网+的战略指引下，积极探索以互联网+为特征的新能源产业发展，利用信息通信技术以及互联网平台，让互联网与光伏发电、风力发电等新能源项目进行深度融合，打造新能源产权（物权）交易平台，实现人人参与新能源、人人从新能源发展中受益的目标。</p>
+                                    
+                                </div>
+                                <!-- /COLLAPSE CONTENT INNER -->
+                                
+                                
+                            </div>
+                            <!-- /COLLAPSE CONTENT -->
+                            
+                            
+                        </li>
+                        <!-- /SERVICE ITEM -->
+                        
+                        
+                        <!-- SERVICE ITEM -->
+                        <li class="service-item scroll-animated">
+                           
+                           
+                            <button class="btn btn-primary collapsed" type="button" data-toggle="collapse" data-target="#collapse-item-3" aria-expanded="false">鲁门</button>
+                            
+                            
+                            <!-- COLLAPSE CONTENT -->
+                            <div class="collapse" id="collapse-item-3">
+                               
+                               
+                                <!-- COLLAPSE CONTENT INNER -->
+                                <div class="well">
+                                   
+                                    <p>建筑招工综合服务平台</p>
+                                    
+                                </div>
+                                <!-- /COLLAPSE CONTENT INNER -->
+                                
+                                
+                            </div>
+                            <!-- /COLLAPSE CONTENT -->
+                            
+                            
+                        </li>
+                        <!-- /SERVICE ITEM -->
+                        
+                        
+                        <!-- SERVICE ITEM -->
+                        <li class="service-item scroll-animated">
+                           
+                           
+                            <button class="btn btn-primary collapsed" type="button" data-toggle="collapse" data-target="#collapse-item-4" aria-expanded="false">更多...</button>
+                            
+                            
+                            <!-- COLLAPSE CONTENT -->
+                            <div class="collapse" id="collapse-item-4">
+                               
+                               
+                                <!-- COLLAPSE CONTENT INNER -->
+                                <div class="well">
+                                   
+                                    <p></p>
+                                    
+                                </div>
+                                <!-- /COLLAPSE CONTENT INNER -->
+                                
+                                
+                            </div>
+                            <!-- /COLLAPSE CONTENT -->
+                            
+                            
+                        </li>
+                        <!-- /SERVICE ITEM -->
+                        
+                        
+                    </ul>
+                    <!-- /SERVICE LIST -->
+
+
+                </section>
+                <!-- /SERVICE -->
+                
+                
+                <!-- WORK -->
+                <section id="work">
+
+
+                    <h3 class="headline scroll-animated">项目截图</h3>
+                    
+                    
+                    <!-- SHOWCASE -->
+                    <div class="showcase">
+                       
+                       
+                        <!-- ITEM -->
+                        <div class="item scroll-animated">
+                          
+                          
+                            <!-- LIGHTBOX LINK -->
+                            <a href="#" data-featherlight="#item-1-lightbox">
+                            
+                            
+                                <!-- INFO -->
+                                <div class="info">
+
+
+                                    <!-- CONTAINER MID -->
+                                    <div class="container-mid">
+                                        <h5>藏宝</h5>
+                                        <p>(官网)</p>
+                                    </div>
+                                    <!-- /CONTAINER MID -->
+
+
+                                </div>
+                                <!-- /INFO -->
+
+
+                                <div class="background-image" style="background-image: url(assets/img/b1.png)"></div>
+
+                           
+                            </a>
+                            <!-- /LIGHTBOX LINK -->
+                            
+                            
+                            <!-- LIGHTBOX -->
+                            <div id="item-1-lightbox" class="work-lightbox">
+                               
+                               
+                                <img class="img-responsive" src="assets/img/b1.png" alt="image">
+                                
+                                <h3>藏宝</h3>
+                                <p class="subline">(官网)</p>
+                                
+                                <p>藏宝是一家集线上拍卖、收藏交流、艺术资产管理为一体的综合性服务平台。</p>
+                                
+                                <p>通过提供“随时发拍、即时竞拍、全球拍卖一键参与”的技术服务，为广大收藏品经营者、爱好者带来便利，使收藏拍卖交易活动不受时间与空间的限制。</p>
+                                
+                                
+                            </div>
+                            <!-- /LIGHTBOX -->
+                            
+                            
+                        </div>
+                        <!-- /ITEM -->
+                        
+                        
+                        <!-- ITEM -->
+                        <div class="item scroll-animated">
+                          
+                          
+                            <!-- LIGHTBOX LINK -->
+                            <a href="#" data-featherlight="#item-2-lightbox">
+                            
+                            
+                                <!-- INFO -->
+                                <div class="info">
+
+
+                                    <!-- CONTAINER MID -->
+                                    <div class="container-mid">
+
+                                        <h5>藏宝</h5>
+                                        <p>(小程序)</p>
+
+                                    </div>
+                                    <!-- /CONTAINER MID -->
+
+
+                                </div>
+                                <!-- /INFO -->
+
+
+                                <div class="background-image" style="background-image: url(assets/img/b4.png)"></div>
+
+                           
+                            </a>
+                            <!-- /LIGHTBOX LINK -->
+                            
+                            
+                            <!-- LIGHTBOX -->
+                            <div id="item-2-lightbox" class="work-lightbox">
+                               
+                               
+                                <img class="img-responsive" src="assets/img/xiaocxu.jpg" alt="image">
+                                
+                                <h3>藏宝</h3>
+                                <p class="subline">(小程序)</p>
+                                
+                                <p>藏宝小程序版</p>
+                                
+                                
+                                
+                                
+                            </div>
+                            <!-- /LIGHTBOX -->
+                            
+                            
+                        </div>
+                        <!-- /ITEM -->
+                        
+                        
+                        <!-- ITEM -->
+                        <div class="item scroll-animated">
+                          
+                          
+                            <!-- LIGHTBOX LINK -->
+                            <a href="#" data-featherlight="#item-3-lightbox">
+                            
+                            
+                                <!-- INFO -->
+                                <div class="info">
+
+
+                                    <!-- CONTAINER MID -->
+                                    <div class="container-mid">
+
+                                        <h5>易电所</h5>
+                                        <p>(APP)</p>
+
+                                    </div>
+                                    <!-- /CONTAINER MID -->
+
+
+                                </div>
+                                <!-- /INFO -->
+
+
+                                <div class="background-image" style="background-image: url(assets/img/b3.jpg)"></div>
+
+                           
+                            </a>
+                            <!-- /LIGHTBOX LINK -->
+                            
+                            
+                            <!-- LIGHTBOX -->
+                            <div id="item-3-lightbox" class="work-lightbox">
+                               
+                               
+                                <img class="img-responsive" src="assets/img/b3.jpg" alt="image">
+                                
+                                <h3>易电所</h3>
+                                <p class="subline">(APP)</p>
+                                <p>易电所通过互联网+新能源电站实物资产产权（物权）交易的新型业态发展方式，一方面为有投资意愿的单位和个人提供直接参与新能源电站实物资产购买与持有的交易机会；另一方面支持和鼓励更多独立中小型电站的开发经营者通过易电所转向轻资产经营方式，快速成长壮大，健康持续发展。</p>
+                                
+                                
+                            </div>
+                            <!-- /LIGHTBOX -->
+                            
+                            
+                        </div>
+                        <!-- /ITEM -->
+                        
+                        
+                        <!-- ITEM -->
+                        <div class="item scroll-animated">
+                          
+                          
+                            <!-- LIGHTBOX LINK -->
+                            <a href="#" data-featherlight="#item-4-lightbox">
+                            
+                            
+                                <!-- INFO -->
+                                <div class="info">
+
+
+                                    <!-- CONTAINER MID -->
+                                    <div class="container-mid">
+
+                                        <h5>鲁门</h5>
+                                        <p>(官网)</p>
+
+                                    </div>
+                                    <!-- /CONTAINER MID -->
+
+
+                                </div>
+                                <!-- /INFO -->
+
+
+                                <div class="background-image" style="background-image: url(assets/img/b2.png)"></div>
+
+                           
+                            </a>
+                            <!-- /LIGHTBOX LINK -->
+                            
+                            
+                            <!-- LIGHTBOX -->
+                            <div id="item-4-lightbox" class="work-lightbox">
+                               
+                               
+                                <img class="img-responsive" src="assets/img/b2.png" alt="image">
+                                
+                                <h3>鲁门</h3>
+                                <p class="subline">(官网)</p>
+                                
+                                <p>建筑招工综合服务平台</p>
+                            </div>
+                            <!-- /LIGHTBOX -->
+                            
+                            
+                        </div>
+                        <!-- /ITEM -->
+                        
+                        
+                    </div>
+                    <!-- /SHOWCASE -->
+
+
+                </section>
+                <!-- /WORK -->
+                
+                
+                <!-- CONTACT -->
+                <section id="contact">
+
+
+                    <h3 class="headline scroll-animated">联系我</h3>
+                    
+                    
+                    <!-- CONTACT FORM --> 
+                    <a id="contact-form" href="https://mail.163.com/" target="_blank">
+                        <button type="submit" class="form-control scroll-animated">17610987071@163.com<div class="circle"><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-angle-right" aria-hidden="true"></i></div></button>
+                        
+                        <div class="success-message"><i class="fa fa-check" aria-hidden="true"></i>The Email was Sent Successfully!</div>
+
+                   
+                    </a>
+                    <!-- /CONTACT FORM --> 
+
+
+                </section>
+                <!-- /CONTACT -->
+                
+                
+                <!-- FOOTER -->
+                <section id="footer">
+                
+                   
+                    <!-- SOCIAL ICONS -->
+                    <ul class="social-icons scroll-animated">
+                       
+                       
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        
+                        
+                    </ul>
+                    <!-- /SOCIAL ICONS -->
+                    
+
+                    <p class="scroll-animated">成功之前我们要做应该做的事情，成功之后我们才可以做喜欢做的事情</p>
+
+
+                </section>
+                <!-- /FOOTER -->
+
+
+            </div>
+            <!-- /CONTENT AREA INNER -->
+
+
+        </div>
+        <!-- /CONTENT AREA -->
+        
+        
+        <!-- JAVASCRIPTS -->
+        <script type="text/javascript" src="assets/js/plugins.js"></script>
+        <script type="text/javascript" src="assets/js/main.js"></script>
+   
+   
+    </body> 
+    <script>
+	window.onload= function () {
+		setTimeout(function(){
+			$('.bd').fadeOut("slow");
+		},2000)
+	}
+</script>
+    
+</html>
